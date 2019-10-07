@@ -1,0 +1,32 @@
+<!--
+  Exercise 1.1
+  An XML file that stores data for a library. 
+  The library has two catalogues (technical books, and for cookery books).
+  Each catalogue has a number of books. 
+  Books have an ISBN, title and author.
+-->
+
+<?xml version="1.0" encoding="UTF-8"?> 
+
+<library> 
+  <catalogue category="technical">
+    <book isbn="193837467">
+      <title>Algorithms</title> 
+      <author>Umesh Vazirani</author> 
+    </book>
+     <book isbn="827364680">
+      <title>The Data Warehouse Toolkit</title> 
+      <author>Ralph Kimball</author> 
+    </book>
+  </catalogue>
+  <catalogue category="cookery">
+    <book isbn="283746483">
+      <title>Simply Delicious</title> 
+      <author>Darina Allen</author> 
+    </book>
+    <book isbn="171653638">>
+      <title>Veg</title> 
+      <author>Jamie Oliver</author> 
+    </book>
+  </catalogue>
+</library>
